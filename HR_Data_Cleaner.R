@@ -11,11 +11,11 @@ Sys.setenv(JAVA_HOME='C:\\Program Files\\Java\\jre8')
 
 ###Install block -- Uncomment the below lines to install necassary packages automatically
 ##Installs the necessary packages to format the data
-#install.packages("data.table")
-#install.packages("dplyr")
-#install.packages("xlsx")
-#install.packages("XLConnect")
-#install.packages("stringr")
+install.packages("data.table")
+install.packages("dplyr")
+install.packages("xlsx")
+install.packages("XLConnect")
+install.packages("stringr")
 
 
 #Import Statements
@@ -278,9 +278,6 @@ autoSizeColumn(usage, colIndex = c(1:ncol(USE)))
 #Save and output the finished report
 saveWorkbook(wb, "Finished_Report.xlsx")
 #rm(list=ls(all=TRUE))
-
-data_cleaner()
-
 
 
 
