@@ -4,9 +4,9 @@ This application is a simple R program for formatting an excel file
 
 ## Installation
 
-*Install R and excel
-*Clone the project
-*Import into R and run
+* Install R and excel
+* Clone the project
+* Import into R and run
 
 ## Usage
 
